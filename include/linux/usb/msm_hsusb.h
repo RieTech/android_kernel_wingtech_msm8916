@@ -112,10 +112,15 @@ enum msm_usb_phy_type {
 
 #define IDEV_ACA_CHG_MAX	750
 #define IDEV_ACA_CHG_LIMIT	500
+<<<<<<< HEAD
 
 /* CONFIG_MACH_WT88047 */
 #elif defined (CONFIG_MACH_WT88047)
 #define IDEV_CHG_MAX	1050
+=======
+#elif CONFIG_MACH_WT88047
+#define IDEV_CHG_MAX	1500
+>>>>>>> 23e8ba5... msm_hsusb: Enable 1500mA charging current
 #define IDEV_CHG_MIN	500
 #define IUNIT		100
 
