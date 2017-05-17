@@ -76,15 +76,6 @@ config CPU_FREQ_DEFAULT_GOV_POWERSAVE
 	  the frequency statically to the lowest frequency supported by
 	  the CPU.
 
-<<<<<<< HEAD
-=======
-config CPU_FREQ_DEFAULT_GOV_DARKNESS
-	  bool "Darkness"
-	  select CPU_FREQ_GOV_DARKNESS
-	  select CPU_FREQ_GOV_PERFORMANCE
-	  help
-	  Use the CPUFreq governor 'darkness' as default, using predefined
-
 config CPU_FREQ_DEFAULT_GOV_ZZMOOVE
 	  bool "zzmoove"
 	  select CPU_FREQ_GOV_ZZMOOVE
@@ -94,7 +85,6 @@ config CPU_FREQ_DEFAULT_GOV_ZZMOOVE
 	  frequency lookup tables and optimized scaling triggers instead of
 	  % frequency steps to get smooth up/downscaling dependant on CPU load.
 
->>>>>>> a36626f... cpufreq: Add zzmoove governor v1.0 beta8
 config CPU_FREQ_DEFAULT_GOV_USERSPACE
 	bool "userspace"
 	select CPU_FREQ_GOV_USERSPACE
