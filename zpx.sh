@@ -17,8 +17,8 @@
 
 ####
 ## platform specifics
-export KBUILD_BUILD_USER="Cangkuls"
-export KBUILD_BUILD_HOST="ZeroProjectX"
+export KBUILD_BUILD_USER="Team_Cangkuls"
+export KBUILD_BUILD_HOST="Zero_ProjectX"
 export ARCH=arm
 export SUBARCH=arm
 TOOL_CHAIN_ARM=arm-eabi-
